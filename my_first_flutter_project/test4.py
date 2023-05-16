@@ -49,12 +49,12 @@ def helper(x):
 my_set=set([])
 for i in df6.index:
     my_set.add(df6['Branches'][i]) 
-src="AMDB"
+src="COKB"
 dest="BDQB"
-src1="BDQB"
+src1="COKB"
 dest1="JAIB"
 src2="AMDB"
-dest2="JAIB"
+dest2="IXJB"
 origin_lat0=(float)(df6[df6['Branches']==src].lat)
 origin_long0=(float)(df6[df6['Branches']==src].long)
 origin0=(origin_lat0,origin_long0)
