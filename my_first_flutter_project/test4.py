@@ -15,6 +15,7 @@ import openpyxl
 from openpyxl import Workbook, load_workbook
 import sys
 import numpy
+
 _url="/maps/api/distancematrix/json?"
 _sec="KdrWGBeHLpdBotRnqUca7Y3pWxm0N"
 conn = http.client.HTTPSConnection(host="api.distancematrix.ai")
@@ -56,8 +57,7 @@ src1="COKB"
 dest1="JAIB"
 src2="AMDB"
 dest2="IXJB"
-src3="HYDB"
-dest3="GAUB"
+
 origin_lat0=(float)(df6[df6['Branches']==src].lat)
 origin_long0=(float)(df6[df6['Branches']==src].long)
 origin0=(origin_lat0,origin_long0)
