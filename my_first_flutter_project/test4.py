@@ -57,6 +57,9 @@ src1="COKB"
 dest1="JAIB"
 src2="AMDB"
 dest2="IXJB"
+src2="AMDB"
+dest2="IXJB"
+
 
 origin_lat0=(float)(df6[df6['Branches']==src].lat)
 origin_long0=(float)(df6[df6['Branches']==src].long)
